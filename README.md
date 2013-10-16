@@ -2,11 +2,17 @@
 
 A Clojure library for interacting with the [SoundCloud API](http://developers.soundcloud.com/docs/api/reference).
 
+
 ## Usage
 
-`[soundcloud "0.1.1"]`
-
 ```clojure
+[soundcloud "0.1.1"]
+
+;; In your ns statement:
+(ns my.ns
+  (:require [soundcloud.core :refer :all]))
+
+
 ;; define settings without oauth token
 (def settings {:client-id "[soundcloud api id]" :client-secret "[soundcloud api secret]"})
 ;; define settings and generate an oauth token
