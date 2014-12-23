@@ -27,7 +27,7 @@
   ([settings]
    (soundcloud "/tracks" {"client_id" (:client-id settings)} ))
   ([settings & args] 
-   (soundcloud "/tracks/" (join "/" args) {"client_id" (:client-id settings)} )))
+   (soundcloud (str "/tracks/" (join "/" args) ) {"client_id" (:client-id settings)} )))
 
 (defn users 
   ([settings & args]
