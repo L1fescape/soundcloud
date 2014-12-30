@@ -1,4 +1,4 @@
-(defproject soundcloud "0.1.2"
+(defproject soundcloud "0.1.3"
   :description "A Clojure library for interacting with the SoundCloud API."
   :url "http://akenn.org/projects/soundcloud"
   :license {:name "Eclipse Public License"

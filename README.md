@@ -6,7 +6,7 @@ A Clojure library for interacting with the [SoundCloud API](http://developers.so
 ## Usage
 
 ```clojure
-[soundcloud "0.1.2"]
+[soundcloud "0.1.3"]
 
 ;; In your ns statement:
 (ns my.ns
@@ -42,6 +42,6 @@ TODO fix this
 
 ## License
 
-Copyright © 2013 Andrew Kennedy
+Copyright © 2015 Andrew Kennedy
 
 Distributed under the Eclipse Public License, the same as Clojure.
